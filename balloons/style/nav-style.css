@@ -1,0 +1,79 @@
+.nav__menu {
+    display: flex;
+    width: 100%;
+    max-width: 1380px;
+    margin: 5px auto 37px;
+    justify-content: space-around;
+}
+
+.nav__nav {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 40px 0 0;
+}
+
+.nav__number {
+    display: flex;
+    width: 248px;
+    height: 30px;
+}
+
+.nav__line {
+    width: 5px;
+    height: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: rotate(-45deg);
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.nav__number--phone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.nav__social {
+ margin-left: 25px;
+}
+
+.nav__social:last-child {
+    margin-right: -25px;
+    margin-left: 10px;
+}
+
+.nav_work {
+    padding: 0;
+    margin-top: -12px;
+    margin-left: 40px;
+}
+
+.nav__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.nav__suptitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    margin-top: -12px;
+}
